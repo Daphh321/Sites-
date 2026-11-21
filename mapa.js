@@ -253,7 +253,6 @@ const naufragios = [
         descricao: "Ferry grego que colidiu com rochas perto da ilha de Paros devido a falha humana e negligência da tripulação."
     },
 
-    // --- 41 NOVAS EMBARCAÇÕES ADICIONADAS ---
     {
         nome: "Whydah Gally",
         local: "Cabo Cod — Massachusetts",
