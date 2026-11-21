@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ABYSSAL</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+   
+     <link rel="icon" type="png" href="imagens/favicon (2).png">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <nav class="menu">
+            <a href="index.html">Início</a>
+            <a href="tema.html">O tema</a>
+            <a href="mapa.html">Mapa</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="Contato.html">Contato</a>
+        </nav>
+    </header>
+
+    <main class="pagina-mapa">
+
+        <section class="titulo-mapa">
+
+            <span>ABYSSAL EXPLORA / 03</span>
+
+            <h1>
+                Mapa global de
+                <em>naufrágios.</em>
+            </h1>
+
+            <p>
+                Explore os oceanos e descubra onde embarcações
+                naufragadas permanecem submersas ao redor do mundo.
+            </p>
+
+        </section>
+
+
+        <section class="exploracao">
+
+
+            <div class="area-mapa">
+
+                <div class="topo-mapa">
+
+                    <span>MAPA MUNDIAL</span>
+
+                    <span>68 REGISTROS</span>
+
+                </div>
+
+
+                <div class="mapa">
+
+                    <img
+                        src="imagens/mapa mundi.svg"
+                        alt="Mapa-múndi com os continentes">
+
+                    <div id="marcadores"></div>
+
+                </div>
+
+
+                <div class="legenda">
+
+                    <span class="simbolo"></span>
+
+                    <span>Localização de naufrágio</span>
+
+                </div>
+
+            </div>
+
+
+            <aside class="painel">
+
+                <span class="identificacao">
+                    REGISTRO SELECIONADO
+                </span>
+
+                <h2 id="nome">
+                    Explore o mapa
+                </h2>
+
+                <p id="descricao">
+                    Selecione um dos marcadores para descobrir
+                    informações sobre uma embarcação naufragada.
+                </p>
+
+
+                <div class="dados">
+
+                    <div>
+
+                        <span>LOCALIZAÇÃO</span>
+
+                        <p id="local">—</p>
+
+                    </div>
+
+
+                    <div>
+
+                        <span>ANO</span>
+
+                        <p id="ano">—</p>
+
+                    </div>
+
+                </div>
+
+
+                <p class="instrucao">
+                    Selecione outro marcador para explorar
+                    uma nova localização.
+                </p>
+
+            </aside>
+
+        </section>
+
+    </main>
+
+    <script src="mapa.js"></script>
+
+</body>
+
+</html>

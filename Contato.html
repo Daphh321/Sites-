@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contato | ABYSSAL EXPLORA</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   
+     <link rel="icon" type="png" href="imagens/favicon (2).png">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="cabecalho">
+        <nav class="menu">
+            <a href="index.html">Início</a>
+            <a href="tema.html">O tema</a>
+            <a href="mapa.html">Mapa</a>
+            <a href="sobre.html">Sobre</a>
+            <a href="Contato.html" class="ativo">Contato</a>
+        </nav>
+    </header>
+
+    <main class="container-contato">
+        
+        <section class="topo-contato">
+            <span class="subtitulo">ABYSSAL EXPLORA / COMUNICAÇÃO</span>
+            <h1>Entre em contato com a <span>ABYSSAL</span></h1>
+            <p>Tem alguma sugestão de pesquisa, dúvida sobre naufrágios ou deseja enviar sua opinião? Mande uma mensagem para o nosso porto base.</p>
+        </section>
+
+        <div class="grid-contato">
+            
+    
+            <section class="cartao-contato">
+                <h2>Envie sua mensagem</h2>
+                <form action="#" method="post">
+                    
+                    <div class="grupo-campo">
+                        <label for="nome">Nome:</label>
+                        <input type="text" id="nome" name="nome" required placeholder="Ex: Capitão Nemo">
+                    </div>
+
+                    <div class="grupo-campo">
+                        <label for="email">E-mail:</label>
+                        <input type="email" id="email" name="email" required placeholder="exemplo@abyssal.com">
+                    </div>
+
+                    <div class="grupo-campo">
+                        <label for="telefone">Telefone:</label>
+                        <input type="tel" id="telefone" name="telefone" placeholder="(13) 99999-0000" pattern="\([0-9]{2}\)\s?[0-9]{4,5}-[0-9]{4}">
+                    </div>
+
+                    <div class="grupo-campo">
+                        <label for="assunto">Assunto:</label>
+                        <select id="assunto" name="assunto">
+                            <option value="">Selecione uma opção</option>
+                            <option value="duvidas">Dúvidas</option>
+                            <option value="opiniao">Envie sua Opinião</option>
+                            <option value="sugestoes">Sugestões de Pesquisa</option>
+                            <option value="outro">Outro assunto</option>
+                        </select>
+                    </div>
+
+                    <div class="grupo-campo">
+                        <label for="mensagem">Mensagem:</label>
+                        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem aqui..."></textarea>
+                    </div>
+
+                    <div class="grupo-checkbox">
+                        <input type="checkbox" id="newsletter" name="newsletter">
+                        <label for="newsletter">Desejo receber novidades e notificações abissais?</label>
+                    </div>
+
+                    <div class="botoes-acao">
+                        <button type="submit" class="botao-enviar">Enviar Mensagem</button>
+                        <button type="reset" class="botao-limpar">Limpar</button>
+                    </div>
+
+                </form>
+            </section>
+
+            <div class="coluna-lateral">
+                
+                <section class="cartao-info">
+                    <h3>Outras formas de contato</h3>
+                    <address>
+                        <p><strong>E-mail:</strong> contato@abyssalexplora.com</p>
+                        <p><strong>Telefone:</strong> (13) 3456-7890</p>
+                        <p><strong>Endereço Base:</strong> Cais das Profundezas, 123 — Santos (SP)</p>
+                    </address>
+                </section>
+
+                <section class="cartao-mapa">
+                    <h3>Localização do Porto 📍</h3>
+                    <div class="mapa-container">
+                        <iframe
+                            src="https://www.google.com/maps?q=Porto+de+Santos+SP&output=embed"
+                            title="Mapa de Localização - Porto de Santos">
+                        </iframe>
+                    </div>
+                </section>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer class="rodape">
+        <p>© 2026 ABYSSAL EXPLORA — Todos os direitos reservados.</p>
+    </footer>
+
+</body>
+</html>
